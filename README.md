@@ -1,38 +1,60 @@
 # Hi, I'm Swapnil Surdi 👋
 
-## Software Engineer | Full-Stack & Cloud Expert | Microservices
+**I build production AI systems — RAG pipelines, agentic fleets, and the backend infrastructure that keeps them fast, cheap, and reliable.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-surdi-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/surdi/) [![Portfolio](https://img.shields.io/badge/Portfolio-surdi.in-brightgreen?style=flat-square&logo=google-chrome)](https://surdi.in) [![Email](https://img.shields.io/badge/Email-swapnil.surdi@icloud.com-red?style=flat-square&logo=gmail)](mailto:swapnil.surdi@icloud.com) [![Calendly](https://img.shields.io/badge/Schedule_Call-30min-purple?style=flat-square&logo=calendly)](https://calendly.com/swapnil-surdi/30min) [![Location](https://img.shields.io/badge/Location-San_Jose,_CA-orange?style=flat-square&logo=google-maps)](https://maps.google.com/?q=San+Jose,+CA)
+[![Portfolio](https://img.shields.io/badge/Portfolio-surdi.in-brightgreen?style=flat-square&logo=google-chrome)](https://surdi.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-surdi-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/surdi/)
+[![Google Scholar](https://img.shields.io/badge/Scholar-publications-4285F4?style=flat-square&logo=googlescholar)](https://scholar.google.com/citations?hl=en&user=66E21KUAAAAJ)
+[![Email](https://img.shields.io/badge/Email-swapnil.surdi@icloud.com-red?style=flat-square&logo=maildotru)](mailto:swapnil.surdi@icloud.com)
 
-### 🚀 About Me
+Ten years of building software (8+ professional), most recently 4 years of AI systems in
+regulated healthcare — HIPAA / ISO 13485 — where "it usually works" isn't an option.
 
-Experienced Senior Software Engineer with 8+ years building scalable, compliant systems in fintech and healthcare. Passionate about cross-border financial solutions, AI/LLM integration, and creating resilient distributed architectures.
+### What I've shipped
 
-### 💻 Tech Stack
+- **Agentic RAG in production** — MCP tool orchestration with multi-hop reasoning across docs,
+  code, Confluence, and Jira; compliance retrieval cut from **30s to sub-second**, verification
+  workflows **60% faster** (Qdrant, 768-dim embeddings, BM25 hybrid retrieval, NDCG/MRR evals).
+- **LLM evaluation & inference at scale** — production benchmarking across OpenAI, Anthropic,
+  Google, Meta, and Alibaba models; FastAPI async inference with rate-limit handling and
+  **cross-provider failover**; multi-tenant single-deployment platform serving **100K+ daily
+  requests at 99.9% uptime** with **60% lower infra cost**.
+- **An autonomous agent fleet I sleep through** — *LaunchLab Fleet*: three recycled laptops, each
+  operated by its own headless Claude Code agent. Private Matrix room as the agent bus, a
+  self-written Go + SQLite status hub (one query went **4.18s → 18ms** with the right index), a
+  zero-token watchdog that runs 288×/day without invoking a model, and a nightly triage pass
+  that fixes incidents from a strict safe-allowlist — *the model is the exception, not the loop*.
+  (Infra is private; build story coming to [surdi.in](https://surdi.in).)
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages & Frameworks** | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) |
-| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| **Databases & Messaging** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white) |
+### Featured repositories
 
-### 🔧 Featured Projects
+| Project | What it is |
+|---|---|
+| [**mcp-cache**](https://github.com/swapnilsurdi/mcp-cache) | Transparent proxy cache for any MCP server — breaks the 25K-token tool-response wall, cuts LLM API cost 30–50%. Published as [`@hapus/mcp-cache`](https://www.npmjs.com/package/@hapus/mcp-cache) |
+| [**email_mcp**](https://github.com/swapnilsurdi/email_mcp) | Multi-account email MCP server with a real security model: scoped per-agent keys, idempotent sends, allow/block-lists as the last line against a compromised agent, auth delegation with audit/pause/revoke |
+| [**career-ops**](https://github.com/swapnilsurdi/career-ops) | AI-powered job-search operations system built on Claude Code — 14 skill modes, scanner cron, evaluation reports, LaTeX resume pipeline |
+| [**claudeskills**](https://github.com/swapnilsurdi/claudeskills) | Claude Code skills, starting with SMAC — Stochastic Multi-Agent Consensus for decision-making |
+| [**mcp-pa**](https://github.com/swapnilsurdi/mcp-pa) | Personal-assistant MCP server (projects, status, calendar, documents) |
+| [**jobscanner**](https://github.com/swapnilsurdi/jobscanner) | Cron-based job-posting scanner feeding the career-ops pipeline |
 
-#### [MCP Enterprise AI Platform](https://github.com/swapnilsurdi/mcp-atlassian)
-Enterprise-grade Model Context Protocol servers for AI integration with business tools
-- **Tech**: Python, MCP, SQLite, AWS
-- **Impact**: Company-wide AI assistant deployment, 80% productivity improvement
+Also live: [stroller-lab.com](https://stroller-lab.com) — a stroller & car-seat comparison
+product (React + Cloudflare Workers + Anthropic + Supabase), built and operated end to end.
 
+### Patent & research
 
-### 📫 Let's Connect!
+- **US20240129000A1** *(patent pending)* — fixed base-station antenna system (MIMO) for
+  disaster-resilient mesh networks.
+- *Space Situational Awareness Through Blockchain Technology* — Journal of Space Safety
+  Engineering, 2020.
+- Decentralized search for data marketplaces using IPFS — M.S. research, USC.
 
-I'm passionate about building the next generation of fintech solutions. Currently interested in:
-- Enterprise Knowledge Base MCPs
-- AI-powered financial advisors
-- Real-time data aggregation systems
-- Regulatory compliance automation
+### Toolbox
 
-Feel free to reach out for collaboration or opportunities!
+**Python · Go · TypeScript** — FastAPI, Node.js, Django · **AI:** Claude, GPT, Gemini, Llama,
+Qwen · MCP, RAG, embeddings, eval frameworks, LangChain/LlamaIndex · **Data:** PostgreSQL,
+DynamoDB, Redis, Kafka, Qdrant · **Infra:** AWS, GCP, Docker, Terraform, Cloudflare, Tailscale ·
+**Compliance:** HIPAA, ISO 13485, GDPR
 
 ---
-*"Building secure, scalable systems that bridge the gap between complex regulations and innovative technology."*
+
+📍 San Jose, CA · Open to Senior Software / AI Engineering roles · [surdi.in](https://surdi.in)
