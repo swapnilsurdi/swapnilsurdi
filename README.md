@@ -32,7 +32,6 @@ regulated healthcare — HIPAA / ISO 13485 — where "it usually works" isn't an
 |---|---|
 | [**mcp-cache**](https://github.com/swapnilsurdi/mcp-cache) | Transparent proxy cache for any MCP server — breaks the 25K-token tool-response wall, cuts LLM API cost 30–50%. Published as [`@hapus/mcp-cache`](https://www.npmjs.com/package/@hapus/mcp-cache) |
 | [**email_mcp**](https://github.com/swapnilsurdi/email_mcp) | Multi-account email MCP server with a real security model: scoped per-agent keys, idempotent sends, allow/block-lists as the last line against a compromised agent, auth delegation with audit/pause/revoke |
-| [**career-ops**](https://github.com/swapnilsurdi/career-ops) | AI-powered job-search operations system built on Claude Code — 14 skill modes, scanner cron, evaluation reports, LaTeX resume pipeline |
 | [**claudeskills**](https://github.com/swapnilsurdi/claudeskills) | Claude Code skills, starting with SMAC — Stochastic Multi-Agent Consensus for decision-making |
 | [**mcp-pa**](https://github.com/swapnilsurdi/mcp-pa) | Personal-assistant MCP server (projects, status, calendar, documents) |
 | [**jobscanner**](https://github.com/swapnilsurdi/jobscanner) | Cron-based job-posting scanner feeding the career-ops pipeline |
