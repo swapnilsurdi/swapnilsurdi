@@ -5,7 +5,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-surdi.in-brightgreen?style=flat-square&logo=google-chrome)](https://surdi.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-surdi-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/surdi/)
 [![Google Scholar](https://img.shields.io/badge/Scholar-publications-4285F4?style=flat-square&logo=googlescholar)](https://scholar.google.com/citations?hl=en&user=66E21KUAAAAJ)
-[![Email](https://img.shields.io/badge/Email-swapnil.surdi@icloud.com-red?style=flat-square&logo=maildotru)](mailto:swapnil.surdi@icloud.com)
+[![Email](https://img.shields.io/badge/Email-swapnil.surdi@icloud.com-red?style=flat-square&logo=maildotru)](mailto:types.belief-0c@icloud.com)
 
 Ten years of building software (8+ professional), most recently 4 years of AI systems in
 regulated healthcare — HIPAA / ISO 13485 — where "it usually works" isn't an option.
